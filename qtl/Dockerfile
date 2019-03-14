@@ -1,7 +1,5 @@
 FROM r-base:3.5.2
 
-# 
-
 # Add R libraries under /tmp
 COPY libraries/* /tmp/
 # Install R packages
